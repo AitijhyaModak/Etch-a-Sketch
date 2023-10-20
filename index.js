@@ -26,7 +26,7 @@ function ongridclick(event) {
         let minibox = canvas.querySelector("div");
         canvas.removeChild(minibox);
     }
-    grid_size = prompt("Enter grid size. \nMax limit is 200.\nExample: Enter 70 for a size of 70*70", "64");
+    grid_size = prompt("Enter grid size. \nMax limit is 100.\nExample: Enter 70 for a size of 70*70", "64");
     creategrids();
 }
 
